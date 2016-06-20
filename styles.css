@@ -1,0 +1,70 @@
+body {
+  color: #47A3DA;
+  font-family: helvetica;
+  text-align: center; }
+
+header {
+  margin-right: 0; }
+  header .company {
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 9px;
+    font-size: 1.2rem; }
+  header .fa-question-circle-o {
+    vertical-align: super;
+    font-size: 1rem; }
+  header .title {
+    font-size: 2.3rem;
+    font-weight: 400;
+    margin-top: 0; }
+  header ul {
+    padding-left: 0; }
+    header ul .header-icons {
+      border: 4px solid #47A3DA;
+      list-style-type: none;
+      display: inline-block;
+      border-radius: 50%;
+      width: 19px;
+      font-size: 1rem;
+      padding: 0.5rem; }
+
+nav .tabs {
+  margin: 0;
+  padding: 3rem 0;
+  list-style-type: none; }
+  nav .tabs .tab {
+    float: left;
+    width: 19%;
+    padding: 1rem 0.05rem;
+    border: solid #47A3DA;
+    border-width: 1px 1px 0 1px; }
+    nav .tabs .tab label {
+      margin-left: 0 auto;
+      font-size: 1.5rem; }
+    nav .tabs .tab [type=radio] {
+      display: none; }
+
+main .main-info {
+  padding-top: 3rem; }
+  main .main-info .main1 {
+    background-color: #47A3DA;
+    width: 45%;
+    margin: 0 auto;
+    padding: 1.5rem; }
+  main .main-info .sushi-pic {
+    width: 25%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 50%;
+    color: #47A3DA; }
+  main .main-info .main-heading {
+    font-size: 1.5rem; }
+  main .main-info .main-text {
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+footer {
+  padding-top: 3rem; }
+
+/*# sourceMappingURL=styles.css.map */

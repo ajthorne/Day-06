@@ -1,0 +1,91 @@
+@import '_variables.scss';
+body {
+    color: $main-color;
+    font-family: helvetica;
+    text-align: center;
+}
+header {
+    margin-right: 0;
+    .company {
+        text-transform: uppercase;
+        display: inline-block;
+        letter-spacing: 9px;
+        font-size: 1.2rem;
+    }
+    .fa-question-circle-o {
+        vertical-align: super;
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 2.3rem;
+        font-weight: 400;
+        margin-top: 0;
+    }
+    ul {
+        padding-left: 0;
+        .header-icons {
+            border: 4px solid $main-color;
+            list-style-type: none;
+            display: inline-block;
+            border-radius: $border-radius;
+            width: 19px;
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
+    }
+}
+nav {
+    .tabs {
+        margin: 0;
+        padding: 3rem 0;
+        list-style-type: none;
+
+        .tab {
+            float: left;
+            width: 19%;
+            padding: 1rem 0.05rem;
+            border: solid $main-color;
+            border-width: 1px 1px 0 1px;
+            label {
+                margin-left: 0 auto;
+                font-size: 1.5rem;
+            }
+            [type=radio] {
+                display: none;
+            }
+        }
+    }
+}
+
+main {
+
+.main-info {
+    padding-top: 3rem;
+
+    .main1 {
+        background-color: $main-color;
+        width: 45%;
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+    .sushi-pic {
+        width: 25%;
+        background-color: white;
+        padding: 2rem;
+        border-radius: $border-radius;
+        color: $main-color;
+    }
+    .main-heading {
+        font-size: $header;
+    }
+    .main-text {
+        font-size: $copy-size;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+}
+
+footer {
+  padding-top: 3rem;
+}
