@@ -124,9 +124,10 @@ footer {
     margin-left: 15rem;
     text-align: left;
     padding-bottom: 3.5rem; }
-  .main-info footer {
+
+  footer {
     clear: both; } }
-@media screen and (min-width: 510px) and (min-width: 840px) {
+@media screen and (min-width: 840px) {
   header .company {
     display: block;
     width: 100%;
@@ -141,23 +142,27 @@ footer {
       text-align: center;
       float: right;
       margin-top: -2rem; }
-  header main .main-info .main-wrapper {
+
+  main nav {
+    padding-top: 2rem; }
+  main .main-info .main-wrapper {
     width: 31%;
     margin: 1%;
     float: left; }
-    header main .main-info .main-wrapper .main1 {
+    main .main-info .main-wrapper .main1 {
       width: 100%;
-      float: left; }
-    header main .main-info .main-wrapper .sushi-pic {
+      float: left;
+      padding: 0; }
+    main .main-info .main-wrapper .sushi-pic {
       width: 25%;
       float: none; }
-    header main .main-info .main-wrapper .main-heading {
+    main .main-info .main-wrapper .main-heading {
       float: none;
       margin: 0.5rem 0;
       text-align: left;
       font-size: 1.1rem;
       width: 100%; }
-    header main .main-info .main-wrapper .main-text {
+    main .main-info .main-wrapper .main-text {
       float: none;
       font-size: 0.9rem;
       text-align: left;

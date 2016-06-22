@@ -157,63 +157,67 @@ footer {
                 padding-bottom: 3.5rem;
             }
         }
+      }
         footer {
             clear: both;
         }
     }
-    @media screen and (min-width:840px) {
-        header {
-            .company {
-              display: block;
-              width: 100%;
-              text-align: left;
+@media screen and (min-width:840px) {
+    header {
+        .company {
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
+        .title {
+            margin: 0;
+            float: left;
+            display: inline-block;
+        }
+        ul {
+            padding-right: 2rem;
+            .header-icons {
+                text-align: center;
+                float: right;
+                margin-top: -2rem;
             }
-            .title {
-                margin: 0;
+        }
+    }
+    main {
+        nav {
+            padding-top: 2rem;
+        }
+        .main-info {
+            .main-wrapper {
+                width: 31%;
+                margin: 1%;
                 float: left;
-                display: inline-block;
-            }
-            ul {
-                padding-right: 2rem;
-                .header-icons {
-                    text-align: center;
-                    float: right;
-                    margin-top: -2rem;
+                .main1 {
+                    width: 100%;
+                    float: left;
+                    padding: 0;
                 }
-            }
-            main {
-                .main-info {
-                    .main-wrapper {
-                        width: 31%;
-                        margin: 1%;
-                        float: left;
-                        .main1 {
-                            width: 100%;
-                            float: left;
-                        }
-                        .sushi-pic {
-                            width: 25%;
-                            float: none;
-                        }
-                        .main-heading {
-                            float: none;
-                            margin: 0.5rem 0;
-                            text-align: left;
-                            font-size: 1.1rem;
-                            width: 100%;
-                        }
-                        .main-text {
-                            float: none;
-                            font-size: 0.9rem;
-                            text-align: left;
-                            padding-bottom: 3.5rem;
-                            padding-left: 0;
-                            margin: 0;
-                            width: 100%;
-                        }
-                    }
+                .sushi-pic {
+                    width: 25%;
+                    float: none;
+                }
+                .main-heading {
+                    float: none;
+                    margin: 0.5rem 0;
+                    text-align: left;
+                    font-size: 1.1rem;
+                    width: 100%;
+                }
+                .main-text {
+                    float: none;
+                    font-size: 0.9rem;
+                    text-align: left;
+                    padding-bottom: 3.5rem;
+                    padding-left: 0;
+                    margin: 0;
+                    width: 100%;
                 }
             }
         }
-      }
     }
+}
