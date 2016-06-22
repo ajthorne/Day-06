@@ -74,30 +74,28 @@ nav {
         }
     }
 }
-main {
-    .main-info {
-        padding-top: 3rem;
-        .main1 {
-            background-color: $main-color;
-            width: 45%;
-            margin: 0 auto;
-            padding: 1.5rem;
-        }
-        .sushi-pic {
-            width: 25%;
-            background-color: white;
-            padding: 2rem;
-            border-radius: $border-radius;
-            color: $main-color;
-        }
-        .main-heading {
-            font-size: $header;
-        }
-        .main-text {
-            font-size: $copy-size;
-            padding-left: 2rem;
-            padding-right: 2rem;
-        }
+.main-wrapper {
+    padding-top: 3rem;
+    .main1 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1.5rem;
+        background-color: $main-color;
+    }
+    .sushi-pic {
+        width: 25%;
+        background-color: white;
+        padding: 2rem;
+        border-radius: $border-radius;
+        color: $main-color;
+    }
+    .main-heading {
+        font-size: $header;
+    }
+    .main-text {
+        font-size: $copy-size;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 footer {
@@ -130,14 +128,19 @@ footer {
             }
         }
     }
-    main {
-        .main-info {
+    .main-info {
+        .main-wrapper {
             .main1 {
                 float: left;
                 width: 28%;
+                background-color: $main-color;
             }
             .sushi-pic {
                 width: 15%;
+                background-color: white;
+                padding: 2rem;
+                border-radius: $border-radius;
+                color: $main-color;
             }
             .main-heading {
                 margin-top: 0;
@@ -154,58 +157,61 @@ footer {
                 padding-bottom: 3.5rem;
             }
         }
-    }
-}
-footer {
-    clear: both;
-}
-@media screen and (min-width:840px) {
-    header {
-        .company {
-            margin-left: -66.4rem;
-        }
-        .title {
-            margin-top: 3rem;
-            float: left;
-            display: inline-block;
-        }
-        ul {
-            padding-right: 2rem;
-            .header-icons {
-                text-align: center;
-                float: right;
-                margin-top: -2rem;
-            }
+        footer {
+            clear: both;
         }
     }
-    main {
-        .main-info {
-            padding: 1em;
-            column-count: 3;
-            column-gap: 1rem;
-            column-width: 100%;
-
-            .main1 {
-                width: 30%;
+    @media screen and (min-width:840px) {
+        header {
+            .company {
+                margin-left: -76.5rem;
             }
-            .sushi-pic {
-                width: 15%;
+            .title {
+                margin-top: 3rem;
+                float: left;
+                display: inline-block;
             }
-            .main-heading {
-                margin-top: 0;
-                margin-bottom: 0.5rem;
-                margin-left: 17rem;
-                text-align: left;
-                font-size: 1.1rem;
-                clear: both;
+            ul {
+                padding-right: 2rem;
+                .header-icons {
+                    text-align: center;
+                    float: right;
+                    margin-top: -2rem;
+                }
             }
-            .main-text {
-                font-size: 0.9rem;
-                margin-top: 0;
-                margin-left: 15rem;
-                text-align: left;
-                padding-bottom: 3.5rem;
+            main {
+                .main-info {
+                    .main-wrapper {
+                        width: 31%;
+                        margin: 1%;
+                        float: left;
+                        .main1 {
+                            width: 100%;
+                            float: left;
+                        }
+                        .sushi-pic {
+                            width: 25%;
+                            float: none;
+                        }
+                        .main-heading {
+                            float: none;
+                            margin: 0.5rem 0;
+                            text-align: left;
+                            font-size: 1.1rem;
+                            width: 100%;
+                        }
+                        .main-text {
+                            float: none;
+                            font-size: 0.9rem;
+                            text-align: left;
+                            padding-bottom: 3.5rem;
+                            padding-left: 0;
+                            margin: 0;
+                            width: 100%;
+                        }
+                    }
+                }
             }
         }
+      }
     }
-}

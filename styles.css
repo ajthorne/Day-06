@@ -58,22 +58,22 @@ nav .tabs {
   nav .tabs [type=radio] {
     display: none; }
 
-main .main-info {
+.main-wrapper {
   padding-top: 3rem; }
-  main .main-info .main1 {
-    background-color: #47A3DA;
-    width: 45%;
+  .main-wrapper .main1 {
+    width: 90%;
     margin: 0 auto;
-    padding: 1.5rem; }
-  main .main-info .sushi-pic {
+    padding: 1.5rem;
+    background-color: #47A3DA; }
+  .main-wrapper .sushi-pic {
     width: 25%;
     background-color: white;
     padding: 2rem;
     border-radius: 50%;
     color: #47A3DA; }
-  main .main-info .main-heading {
+  .main-wrapper .main-heading {
     font-size: 1.5rem; }
-  main .main-info .main-text {
+  .main-wrapper .main-text {
     font-size: 1.3rem;
     padding-left: 2rem;
     padding-right: 2rem; }
@@ -102,29 +102,33 @@ footer {
       nav .tabs .tab:last-child {
         border-right: 1px solid #47A3DA; }
 
-  main .main-info .main1 {
+  .main-info .main-wrapper .main1 {
     float: left;
-    width: 28%; }
-  main .main-info .sushi-pic {
-    width: 15%; }
-  main .main-info .main-heading {
+    width: 28%;
+    background-color: #47A3DA; }
+  .main-info .main-wrapper .sushi-pic {
+    width: 15%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 50%;
+    color: #47A3DA; }
+  .main-info .main-wrapper .main-heading {
     margin-top: 0;
     margin-bottom: 0.5rem;
     margin-left: 17rem;
     text-align: left;
     font-size: 1.1rem; }
-  main .main-info .main-text {
+  .main-info .main-wrapper .main-text {
     font-size: 0.9rem;
     margin-top: 0;
     margin-left: 15rem;
     text-align: left;
-    padding-bottom: 3.5rem; } }
-footer {
-  clear: both; }
-
-@media screen and (min-width: 840px) {
+    padding-bottom: 3.5rem; }
+  .main-info footer {
+    clear: both; } }
+@media screen and (min-width: 510px) and (min-width: 840px) {
   header .company {
-    margin-left: -66.4rem; }
+    margin-left: -76.5rem; }
   header .title {
     margin-top: 3rem;
     float: left;
@@ -135,28 +139,29 @@ footer {
       text-align: center;
       float: right;
       margin-top: -2rem; }
-
-  main .main-info {
-    padding: 1em;
-    column-count: 3;
-    column-gap: 1rem;
-    column-width: 100%; }
-    main .main-info .main1 {
-      width: 30%; }
-    main .main-info .sushi-pic {
-      width: 15%; }
-    main .main-info .main-heading {
-      margin-top: 0;
-      margin-bottom: 0.5rem;
-      margin-left: 17rem;
+  header main .main-info .main-wrapper {
+    width: 31%;
+    margin: 1%;
+    float: left; }
+    header main .main-info .main-wrapper .main1 {
+      width: 100%;
+      float: left; }
+    header main .main-info .main-wrapper .sushi-pic {
+      width: 25%;
+      float: none; }
+    header main .main-info .main-wrapper .main-heading {
+      float: none;
+      margin: 0.5rem 0;
       text-align: left;
       font-size: 1.1rem;
-      clear: both; }
-    main .main-info .main-text {
+      width: 100%; }
+    header main .main-info .main-wrapper .main-text {
+      float: none;
       font-size: 0.9rem;
-      margin-top: 0;
-      margin-left: 15rem;
       text-align: left;
-      padding-bottom: 3.5rem; } }
+      padding-bottom: 3.5rem;
+      padding-left: 0;
+      margin: 0;
+      width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
