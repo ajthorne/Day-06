@@ -164,10 +164,12 @@ footer {
     @media screen and (min-width:840px) {
         header {
             .company {
-                margin-left: -76.5rem;
+              display: block;
+              width: 100%;
+              text-align: left;
             }
             .title {
-                margin-top: 3rem;
+                margin: 0;
                 float: left;
                 display: inline-block;
             }
